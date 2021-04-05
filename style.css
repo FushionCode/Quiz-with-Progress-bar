@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.heading {
+    background-color: aqua;
+    color: #0000ff;
+    padding: 15px;
+    line-height: 28px;
+}
+
+.heading p {
+    font-size: 16px;
+}
+
+.progress {
+    position: relative;
+    width: 50%;
+    margin: 15px auto  50px;
+    padding: 3px;
+    background-color: #9cbab4;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 0;
+    display: block;
+    background-color: #009579;
+    height: 16px;
+    border-radius: 3px;
+    transition: width  .3s ease-in-out;
+}
+
+.progress p {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: bold 12px;
+    color: white;
+    font-family: 'quicksand', sans-serif;
+}
+
+.quiz {
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.quiz h2 {
+    margin: 8px;
+    padding-top: 10px;
+}
+
+.quiz li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.quiz li:hover {
+    background-color: cornflowerblue;
+    width: 150px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.quizend {
+    background-color: #009579;
+    color: white;
+    width: 60%;
+    margin: 35px auto;
+    padding: 20px 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.quizend h1 {
+    margin: 5px;
+}
+
+.quizend p {
+    padding: 10px;
+}
+
+.quizend a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background: rgba(61, 61, 61);
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/*Display properties*/
+
+.question1 {
+    display: block;
+}
+
+.question2 {
+    display: none;
+}
+
+.question3 {
+    display: none;
+}
+
+.quizend {
+    display: none;
+}
